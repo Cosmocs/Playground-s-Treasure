@@ -6,7 +6,7 @@ public class MoveCollideScript : MonoBehaviour
 {
     public float speed;
     private Rigidbody2D rb;
-
+    public AudioSource audioSource;
 
 
     // Start is called before the first frame update
@@ -55,6 +55,7 @@ public class MoveCollideScript : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         //sound code
+        audioSource.Play();
         Debug.Log("play sound");
     }
 
