@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveCollideScript: MonoBehaviour
+public class MoveCollideScript : MonoBehaviour
 {
     public float speed;
     private Rigidbody2D rb;
@@ -50,13 +50,16 @@ public class MoveCollideScript: MonoBehaviour
     }
 
 
-    
+
     IEnumerator pauseSound()
     {
         yield return new WaitForSeconds(1);
         //sound code
         Debug.Log("play sound");
     }
+
+
+
 
 }
 
