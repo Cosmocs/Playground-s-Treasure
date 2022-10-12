@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Round1
   - Round2
+  - Round3
+  - Round4
   layers:
   - Default
   - TransparentFX
