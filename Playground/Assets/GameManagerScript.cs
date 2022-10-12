@@ -19,9 +19,10 @@ public class GameManagerScript : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
+            StartCoroutine(GoTime());
             SceneManager.LoadScene("SampleScene");
 
-            StartCoroutine(GoTime());
+           
         }
 
 
@@ -29,6 +30,7 @@ public class GameManagerScript : MonoBehaviour
 
     IEnumerator GoTime()
     {
+        yield return new WaitForSeconds(2);
 
 
 
