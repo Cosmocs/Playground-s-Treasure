@@ -20,7 +20,18 @@ public class GameManagerScript : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             SceneManager.LoadScene("SampleScene");
+
+            StartCoroutine(GoTime());
         }
+
+
+    }
+
+    IEnumerator GoTime()
+    {
+
+
+
     }
 
 
