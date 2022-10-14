@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RemovalScript : MonoBehaviour
 {
@@ -9,6 +10,19 @@ public class RemovalScript : MonoBehaviour
     public GameObject[] gone;
     public bool Erased()
     {
+
+        //checks to see if all squares are gone
+        //look for objects in array
+        for (int i = 0; i < gone.Length; i++)
+        {
+            //check if object is in scene 
+            if (gone[i] != null)
+            {
+                return false;
+            }
+
+        }
+
         return true;
     }
     // Start is called before the first frame update
@@ -21,7 +35,11 @@ public class RemovalScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(Erased());
+        if (Erased())
+        {
+            SceneManager.LoadScene("End");
+
+        }
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
