@@ -22,7 +22,7 @@ public class GameManagerScript : MonoBehaviour
             StartCoroutine(GoTime());
             SceneManager.LoadScene("SampleScene");
 
-           
+
         }
 
 
