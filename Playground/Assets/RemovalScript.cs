@@ -66,5 +66,16 @@ public class RemovalScript : MonoBehaviour
 
             }
         }
+        if (collision.gameObject.name == "worm")
+        {
+            Elim = GameObject.FindGameObjectsWithTag("Round5");
+            foreach (GameObject elim in Elim) //destroy each varible in Elim
+            {
+                Destroy(elim);
+            }
+
+            Destroy(this.gameObject);
+
+        }
     }
 }

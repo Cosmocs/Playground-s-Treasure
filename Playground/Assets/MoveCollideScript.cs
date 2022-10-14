@@ -44,7 +44,6 @@ public class MoveCollideScript : MonoBehaviour
 
     void OnCollisionEnter2D()
     {
-        Debug.Log("player collided with something");
         StartCoroutine(pauseSound());
 
     }
@@ -53,7 +52,7 @@ public class MoveCollideScript : MonoBehaviour
 
     IEnumerator pauseSound()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         //sound code
         audioSource.Play();
         Debug.Log("play sound");
