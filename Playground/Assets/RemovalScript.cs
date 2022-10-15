@@ -20,7 +20,7 @@ public class RemovalScript : MonoBehaviour
             {
                 return false;
             }
-
+            
         }
 
         return true;
