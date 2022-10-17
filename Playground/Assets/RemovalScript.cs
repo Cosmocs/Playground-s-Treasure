@@ -19,11 +19,15 @@ public class RemovalScript : MonoBehaviour
             if (gone[i] != null)
             {
                 return false;
+
+
             }
-            
+
         }
 
         return true;
+
+      
     }
     // Start is called before the first frame update
     void Start()
@@ -35,11 +39,7 @@ public class RemovalScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Erased())
-        {
-            SceneManager.LoadScene("End");
-
-        }
+        
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -99,7 +99,16 @@ public class RemovalScript : MonoBehaviour
 
             Destroy(this.gameObject);
 
+
+            if (Erased())
+            {
+                SceneManager.LoadScene("End");
+
+            }
+
         }
+
+
 
 
     }
