@@ -2384,7 +2384,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501682471}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.3, y: 11.46, z: 0}
+  m_LocalPosition: {x: 1.07, y: 8.72, z: 0}
   m_LocalScale: {x: 0.23407502, y: 0.22730152, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9851,6 +9851,7 @@ GameObject:
   - component: {fileID: 2103401895}
   - component: {fileID: 2103401898}
   - component: {fileID: 2103401897}
+  - component: {fileID: 2103401899}
   m_Layer: 0
   m_Name: 'toy-soldier '
   m_TagString: Round4
@@ -9962,6 +9963,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2103401899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103401894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c021377318a21b24091b70987a9c6c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Elim: []
+  gone: []
 --- !u!1 &2110485763
 GameObject:
   m_ObjectHideFlags: 0
