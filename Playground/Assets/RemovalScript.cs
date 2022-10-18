@@ -31,6 +31,8 @@ public class RemovalScript : MonoBehaviour
             }
 
             Destroy(this.gameObject);
+        }
+        
 
             if (collision.gameObject.name == "worm")
             {
@@ -67,9 +69,10 @@ public class RemovalScript : MonoBehaviour
                 Destroy(this.gameObject);
 
             }
-        }
+
+            
         
-        
+       
 
 
 

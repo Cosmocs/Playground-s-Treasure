@@ -28,13 +28,20 @@ public class EndGameScript : MonoBehaviour
 
         return true;
 
+        if (Erased())
+        {
+            StartCoroutine(TheEnd);
+            SceneManager.LoadScene("End");
+
+        }
+
 
     }
 
     // Use this for initialization
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -55,17 +62,20 @@ public class EndGameScript : MonoBehaviour
             Destroy(this.gameObject);
 
 
-            if (Erased())
-            {
-                SceneManager.LoadScene("End");
-
-            }
+            
 
         }
 
     }
 
+    IEnumerator TheEnd()
+    {
 
+
+        yield return new WaitForSeconds(10f);
+
+
+    }
 
 
 
