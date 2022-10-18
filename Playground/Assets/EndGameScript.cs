@@ -42,7 +42,8 @@ public class EndGameScript : MonoBehaviour
     {
 
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+
+    /*public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name == "worm")
         {
@@ -63,7 +64,7 @@ public class EndGameScript : MonoBehaviour
 
         }
 
-    }
+    }*/
 
 
 

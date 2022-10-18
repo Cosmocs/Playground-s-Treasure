@@ -20,9 +20,12 @@ public class RemovalScript : MonoBehaviour
     {
         
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "worm")
+
+        if (collision.gameObject.name == "worm" && this.gameObject.name == "pillar")
         {
             Elim = GameObject.FindGameObjectsWithTag("Round1");
             foreach (GameObject elim in Elim) //destroy each varible in Elim
@@ -34,48 +37,56 @@ public class RemovalScript : MonoBehaviour
         }
         
 
-            if (collision.gameObject.name == "worm")
+        if (collision.gameObject.name == "worm" && this.gameObject.name == "Magnifying Glass")
+        {
+            Elim = GameObject.FindGameObjectsWithTag("Round2");
+            foreach (GameObject elim in Elim) //destroy each varible in Elim
             {
-                Elim = GameObject.FindGameObjectsWithTag("Round2");
-                foreach (GameObject elim in Elim) //destroy each varible in Elim
-                {
-                    Destroy(elim);
-                }
-
-                Destroy(this.gameObject);
-
-
-            }
-            if (collision.gameObject.name == "worm")
-            {
-                Elim = GameObject.FindGameObjectsWithTag("Round3");
-                foreach (GameObject elim in Elim) //destroy each varible in Elim
-                {
-                    Destroy(elim);
-                }
-
-                Destroy(this.gameObject);
-
+                Destroy(elim);
             }
 
-            if (collision.gameObject.name == "worm")
+            Destroy(this.gameObject);
+
+
+        }
+
+        if (collision.gameObject.name == "worm" && this.gameObject.name == "clock")
+        {
+            Elim = GameObject.FindGameObjectsWithTag("Round3");
+            foreach (GameObject elim in Elim) //destroy each varible in Elim
             {
-                Elim = GameObject.FindGameObjectsWithTag("Round4");
-                foreach (GameObject elim in Elim) //destroy each varible in Elim
-                {
-                    Destroy(elim);
-                }
-
-                Destroy(this.gameObject);
-
+                Destroy(elim);
             }
 
-            
-        
-       
+            Destroy(this.gameObject);
+
+        }
 
 
 
+        if (collision.gameObject.name == "worm" && this.gameObject.name == "test_toysoldier")
+        {
+            Elim = GameObject.FindGameObjectsWithTag("Round4");
+            foreach (GameObject elim in Elim) //destroy each varible in Elim
+            {
+                Destroy(elim);
+            }
+
+            Destroy(this.gameObject);
+
+        }
+
+        if (collision.gameObject.name == "worm" && this.gameObject.name == "test jacktoy")
+        {
+            Elim = GameObject.FindGameObjectsWithTag("Round5");
+            foreach (GameObject elim in Elim) //destroy each varible in Elim
+            {
+                Destroy(elim);
+            }
+
+            Destroy(this.gameObject);
+
+        }
 
     }
 }
