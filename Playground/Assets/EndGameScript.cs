@@ -57,11 +57,25 @@ public class EndGameScript : MonoBehaviour
 
             if (Erased())
             {
+                StartCoroutine(TheEnd());
                 SceneManager.LoadScene("End");
 
             }
 
+
+
         }
+
+
+
+    }
+
+    IEnumerator TheEnd()
+    {
+
+
+        yield return new WaitForSeconds(10f);
+
 
     }
 

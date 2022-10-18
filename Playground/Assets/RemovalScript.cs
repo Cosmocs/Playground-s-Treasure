@@ -31,10 +31,9 @@ public class RemovalScript : MonoBehaviour
             }
 
             Destroy(this.gameObject);
-HEAD
+
         }
 
->>>>>>> parent of d3182b8 (...Why?)
 
 
         if (collision.gameObject.name == "worm")
@@ -56,7 +55,7 @@ HEAD
             {
                 Destroy(elim);
             }
- HEAD
+
 
             Destroy(this.gameObject);
 
@@ -76,13 +75,11 @@ HEAD
 
 
 
-        }
-        
-        
- parent of d3182b8 (...Why?)
-
-
-
-
     }
+
+
+
+
+
+
 }
