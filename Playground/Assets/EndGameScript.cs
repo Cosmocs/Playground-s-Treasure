@@ -64,7 +64,22 @@ public class EndGameScript : MonoBehaviour
 
         }
 
+<<<<<<< Updated upstream
     }*/
+=======
+
+
+    }
+
+    IEnumerator TheEnd()
+    {
+
+
+        yield return new WaitForSeconds(6);
+
+
+    }
+>>>>>>> Stashed changes
 
 
 
