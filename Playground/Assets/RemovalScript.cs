@@ -35,7 +35,7 @@ public class RemovalScript : MonoBehaviour
 
             Destroy(this.gameObject);
         }
-        
+
 
         if (collision.gameObject.name == "worm" && this.gameObject.name == "Magnifying Glass")
         {
