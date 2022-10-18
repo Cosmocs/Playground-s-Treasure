@@ -2404,108 +2404,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Elim: []
-  gone:
-  - {fileID: 46957287}
-  - {fileID: 1779953451}
-  - {fileID: 1655919472}
-  - {fileID: 1496045211}
-  - {fileID: 23931853}
-  - {fileID: 1216877713}
-  - {fileID: 1510749667}
-  - {fileID: 1762013960}
-  - {fileID: 473608903}
-  - {fileID: 540427279}
-  - {fileID: 1693117033}
-  - {fileID: 1599423379}
-  - {fileID: 497296012}
-  - {fileID: 352985681}
-  - {fileID: 330630694}
-  - {fileID: 104370538}
-  - {fileID: 251720904}
-  - {fileID: 692453262}
-  - {fileID: 811909012}
-  - {fileID: 1658678679}
-  - {fileID: 2110485763}
-  - {fileID: 1087061608}
-  - {fileID: 1342201197}
-  - {fileID: 1530431027}
-  - {fileID: 1439505932}
-  - {fileID: 1619921591}
-  - {fileID: 1118380874}
-  - {fileID: 183538031}
-  - {fileID: 922767044}
-  - {fileID: 136664092}
-  - {fileID: 1472457305}
-  - {fileID: 1118825567}
-  - {fileID: 944830797}
-  - {fileID: 2136219040}
-  - {fileID: 860149668}
-  - {fileID: 905572239}
-  - {fileID: 1371717695}
-  - {fileID: 324788460}
-  - {fileID: 441687297}
-  - {fileID: 663255778}
-  - {fileID: 1238458705}
-  - {fileID: 1887383496}
-  - {fileID: 1820999063}
-  - {fileID: 471749948}
-  - {fileID: 1408061265}
-  - {fileID: 1507370536}
-  - {fileID: 433927975}
-  - {fileID: 98127036}
-  - {fileID: 857158927}
-  - {fileID: 851332963}
-  - {fileID: 801532883}
-  - {fileID: 63354838}
-  - {fileID: 2093985007}
-  - {fileID: 339817628}
-  - {fileID: 1818757277}
-  - {fileID: 1483010626}
-  - {fileID: 1522947095}
-  - {fileID: 1825734764}
-  - {fileID: 351537546}
-  - {fileID: 1179163920}
-  - {fileID: 1140763546}
-  - {fileID: 1706278317}
-  - {fileID: 692025889}
-  - {fileID: 1205357944}
-  - {fileID: 568385888}
-  - {fileID: 1645599417}
-  - {fileID: 582583812}
-  - {fileID: 568915650}
-  - {fileID: 901693706}
-  - {fileID: 911135822}
-  - {fileID: 27283037}
-  - {fileID: 1692271516}
-  - {fileID: 590612717}
-  - {fileID: 80114676}
-  - {fileID: 458218112}
-  - {fileID: 133696181}
-  - {fileID: 559990463}
-  - {fileID: 582460465}
-  - {fileID: 800482209}
-  - {fileID: 1166829120}
-  - {fileID: 944206458}
-  - {fileID: 1173954232}
-  - {fileID: 259831181}
-  - {fileID: 760880535}
-  - {fileID: 913925962}
-  - {fileID: 2057706815}
-  - {fileID: 1632139656}
-  - {fileID: 1746826454}
-  - {fileID: 1113706071}
-  - {fileID: 1935480083}
-  - {fileID: 396611458}
-  - {fileID: 1877518266}
-  - {fileID: 1720381671}
-  - {fileID: 1003219511}
-  - {fileID: 1120362115}
-  - {fileID: 1533694012}
-  - {fileID: 1460748712}
-  - {fileID: 511500581}
-  - {fileID: 1554336508}
-  - {fileID: 1217775176}
-  - {fileID: 1771851019}
 --- !u!1 &511500581
 GameObject:
   m_ObjectHideFlags: 0
@@ -2767,7 +2665,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520927666}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.5, y: 4.16, z: 0}
+  m_LocalPosition: {x: 9.44, y: 4.01, z: 0}
   m_LocalScale: {x: 0.18220168, y: 0.18774988, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2834,7 +2732,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Elim: []
-  gone: []
 --- !u!1 &540427279
 GameObject:
   m_ObjectHideFlags: 0
@@ -5725,7 +5622,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Elim: []
-  gone: []
 --- !u!1 &1140763546
 GameObject:
   m_ObjectHideFlags: 0
@@ -8447,7 +8343,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Elim: []
-  gone: []
 --- !u!61 &1708215603
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9875,7 +9770,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Elim: []
-  gone: []
 --- !u!1 &2110485763
 GameObject:
   m_ObjectHideFlags: 0
