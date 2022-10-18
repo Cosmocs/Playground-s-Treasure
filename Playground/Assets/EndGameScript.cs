@@ -72,17 +72,6 @@ public class EndGameScript : MonoBehaviour
 
 
 
-    }
-
-    IEnumerator TheEnd()
-    {
-
-
-        yield return new WaitForSeconds(10f);
-
-
-    }
-
     IEnumerator TheEnd()
     {
 
@@ -96,8 +85,14 @@ public class EndGameScript : MonoBehaviour
 
 
 
-
-
-
 }
+
+
+
+
+
+
+
+
+
 
