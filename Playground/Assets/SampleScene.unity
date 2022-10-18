@@ -2447,8 +2447,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42da1a2ccb3f4491789e202a0300e653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   gone: []
   Elim: []
+=======
+  Elim:
+  - {fileID: 944206458}
+  - {fileID: 1173954232}
+  - {fileID: 259831181}
+  - {fileID: 760880535}
+  - {fileID: 913925962}
+  - {fileID: 2057706815}
+  - {fileID: 1632139656}
+  - {fileID: 1746826454}
+  - {fileID: 1113706071}
+  - {fileID: 1935480083}
+  - {fileID: 396611458}
+  - {fileID: 1877518266}
+  - {fileID: 1720381671}
+  - {fileID: 1003219511}
+  - {fileID: 1120362115}
+  - {fileID: 1533694012}
+  - {fileID: 1460748712}
+  - {fileID: 511500581}
+  - {fileID: 1554336508}
+  - {fileID: 1217775176}
+  - {fileID: 1771851019}
+>>>>>>> Stashed changes
 --- !u!1 &511500581
 GameObject:
   m_ObjectHideFlags: 0
