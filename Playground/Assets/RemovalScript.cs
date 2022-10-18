@@ -7,7 +7,7 @@ public class RemovalScript : MonoBehaviour
 {
     private Rigidbody2D rb;
     public GameObject[] Elim;
-   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,7 @@ public class RemovalScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -32,47 +32,45 @@ public class RemovalScript : MonoBehaviour
 
             Destroy(this.gameObject);
         }
-        
 
-            if (collision.gameObject.name == "worm")
+
+        if (collision.gameObject.name == "worm")
+        {
+            Elim = GameObject.FindGameObjectsWithTag("Round2");
+            foreach (GameObject elim in Elim) //destroy each varible in Elim
             {
-                Elim = GameObject.FindGameObjectsWithTag("Round2");
-                foreach (GameObject elim in Elim) //destroy each varible in Elim
-                {
-                    Destroy(elim);
-                }
-
-                Destroy(this.gameObject);
-
-
-            }
-            if (collision.gameObject.name == "worm")
-            {
-                Elim = GameObject.FindGameObjectsWithTag("Round3");
-                foreach (GameObject elim in Elim) //destroy each varible in Elim
-                {
-                    Destroy(elim);
-                }
-
-                Destroy(this.gameObject);
-
+                Destroy(elim);
             }
 
-            if (collision.gameObject.name == "worm")
+            Destroy(this.gameObject);
+
+
+        }
+        if (collision.gameObject.name == "worm")
+        {
+            Elim = GameObject.FindGameObjectsWithTag("Round3");
+            foreach (GameObject elim in Elim) //destroy each varible in Elim
             {
-                Elim = GameObject.FindGameObjectsWithTag("Round4");
-                foreach (GameObject elim in Elim) //destroy each varible in Elim
-                {
-                    Destroy(elim);
-                }
-
-                Destroy(this.gameObject);
-
+                Destroy(elim);
             }
 
-            
-        
-       
+            Destroy(this.gameObject);
+
+        }
+
+        if (collision.gameObject.name == "worm")
+        {
+            Elim = GameObject.FindGameObjectsWithTag("Round4");
+            foreach (GameObject elim in Elim) //destroy each varible in Elim
+            {
+                Destroy(elim);
+            }
+
+            Destroy(this.gameObject);
+
+        }
+
+
 
 
 
