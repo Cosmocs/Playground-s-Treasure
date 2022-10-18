@@ -7,7 +7,7 @@ public class RemovalScript : MonoBehaviour
 {
     private Rigidbody2D rb;
     public GameObject[] Elim;
-   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,7 @@ public class RemovalScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 
@@ -34,6 +34,7 @@ public class RemovalScript : MonoBehaviour
             }
 
             Destroy(this.gameObject);
+
         }
 
 
@@ -62,6 +63,21 @@ public class RemovalScript : MonoBehaviour
 
         }
 
+            Destroy(this.gameObject);
+
+        }
+
+        if (collision.gameObject.name == "worm")
+        {
+            Elim = GameObject.FindGameObjectsWithTag("Round4");
+            foreach (GameObject elim in Elim) //destroy each varible in Elim
+            {
+                Destroy(elim);
+            }
+
+            Destroy(this.gameObject);
+
+        }
 
 
         if (collision.gameObject.name == "worm" && this.gameObject.name == "test_toysoldier")
@@ -89,4 +105,10 @@ public class RemovalScript : MonoBehaviour
         }
 
     }
+
+
+
+
+
+
 }
