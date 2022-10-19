@@ -15,7 +15,7 @@ public class Test_endGameScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -30,7 +30,7 @@ public class Test_endGameScript : MonoBehaviour
 
         ElimTotal = Elim1.Length + Elim2.Length + Elim3.Length + Elim4.Length + Elim5.Length;
 
-        if(ElimTotal == 0)
+        if (ElimTotal == 0)
         {
             SceneManager.LoadScene("End");
         }

@@ -42,9 +42,9 @@ public class EndGameScript : MonoBehaviour
     {
 
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "worm")
+        if (collision.gameObject.name == "worm" && this.gameObject.name == "jacktoy")
         {
             Elim = GameObject.FindGameObjectsWithTag("Round5");
             foreach (GameObject elim in Elim) //destroy each varible in Elim
@@ -53,23 +53,15 @@ public class EndGameScript : MonoBehaviour
             }
 
             Destroy(this.gameObject);
-
-
-            if (Erased())
-            {
-                SceneManager.LoadScene("End");
-
-            }
-
         }
 
+
+
+
+
     }
-
-
-
-
-
-
+    
+    
 
 
 }
