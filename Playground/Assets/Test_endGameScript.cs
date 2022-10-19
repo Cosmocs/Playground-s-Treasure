@@ -32,9 +32,22 @@ public class Test_endGameScript : MonoBehaviour
 
         if (ElimTotal == 0)
         {
+            StartCoroutine(TheEnd());
             SceneManager.LoadScene("End");
         }
 
 
+
     }
+
+
+    IEnumerator TheEnd()
+    {
+
+
+        yield return new WaitForSeconds(30);
+
+
+    }
+
 }

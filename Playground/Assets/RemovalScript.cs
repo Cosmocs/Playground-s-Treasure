@@ -63,14 +63,9 @@ public class RemovalScript : MonoBehaviour
 
         }
 
-        Destroy(this.gameObject);
 
 
-
-
-
-
-        if (collision.gameObject.name == "worm" && this.gameObject.name == "toysoldier")
+        if (collision.gameObject.name == "worm" && this.gameObject.name == "test_toysoldier")
         {
             Elim = GameObject.FindGameObjectsWithTag("Round4");
             foreach (GameObject elim in Elim) //destroy each varible in Elim
@@ -81,6 +76,22 @@ public class RemovalScript : MonoBehaviour
             Destroy(this.gameObject);
 
         }
+
+        if (collision.gameObject.name == "worm" && this.gameObject.name == "test jacktoy")
+        {
+            Elim = GameObject.FindGameObjectsWithTag("Round5");
+            foreach (GameObject elim in Elim) //destroy each varible in Elim
+            {
+                Destroy(elim);
+            }
+
+            Destroy(this.gameObject);
+        }
+
+
+
+
+
 
 
     }

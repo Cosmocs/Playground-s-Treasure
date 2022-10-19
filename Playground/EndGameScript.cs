@@ -42,24 +42,7 @@ public class EndGameScript : MonoBehaviour
     {
 
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.name == "worm" && this.gameObject.name == "jacktoy")
-        {
-            Elim = GameObject.FindGameObjectsWithTag("Round5");
-            foreach (GameObject elim in Elim) //destroy each varible in Elim
-            {
-                Destroy(elim);
-            }
-
-            Destroy(this.gameObject);
-        }
-
-
-
-
-
-    }
+    
     
     
 
