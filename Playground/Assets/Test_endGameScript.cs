@@ -10,6 +10,7 @@ public class Test_endGameScript : MonoBehaviour
     private GameObject[] Elim3;
     private GameObject[] Elim4;
     private GameObject[] Elim5;
+    public AudioSource success;
     private int ElimTotal;
 
     // Start is called before the first frame update
@@ -46,6 +47,7 @@ public class Test_endGameScript : MonoBehaviour
 
 
         yield return new WaitForSeconds(30);
+        success.Play();
 
 
     }
